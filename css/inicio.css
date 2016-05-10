@@ -1,0 +1,48 @@
+*{outline: 1px solid rgba(255,0,0,0.2)}
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*patty menulaunch*/
+.cont_menu{
+	background: url("../img/background/hero.jpg") top no-repeat; 
+	background-size: 100%;
+	}
+.capa{
+
+	background-color: rgba(49, 52, 52, 0.6);
+	padding: 1% 0% 0%;
+}
+/*.menu >li{
+	display: inline-block;
+	margin-top: 2%;
+}
+.submenu{ 
+	color: #fff;
+	padding: 10px;
+	}*/
+.submenu:hover{
+	text-decoration:none;
+	color: #0A8FA0;
+}
+.center{
+	text-align: center;
+	padding: 0%;
+}
+
+.bt_plomo{
+	background-color: #404040;
+	padding: 1% 2%;
+	border: 1px  solid #404040 ;
+}
+.bt_trasp{
+	background-color: rgba(59, 68, 85, 0.3);
+	padding: 1% 2%;
+	border:solid 1px #c2c1e8;
+}
+.cont_let_launch{
+	margin: 14% 0%;
+}
+.mg2{
+	margin: 1% 0% 3%;
+}
+/*patty menulaunch*/
