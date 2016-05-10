@@ -5,18 +5,14 @@ img{
 body{
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/*menu*/
 .cont_menu{
 	background: url("../img/background/hero.jpg") top no-repeat; 
 	background-size: 100%;
 	}
 .capa{
-
 	background-color: rgba(49, 52, 52, 0.6);
 	padding: 1% 0% 0%;
-}
-.menu >li{
-	display: inline-block;
-	margin-top: 2%;
 }
 .submenu{ 
 	color: #fff;
@@ -26,27 +22,16 @@ body{
 	text-decoration:none;
 	color: #0A8FA0;
 }
-.center{
-	text-align: center;
-	padding: 0%;
-}
-
-.bt_plomo{
-	background-color: #404040;
-	padding: 1% 2%;
-	border: 1px  solid #404040 ;
-}
-.bt_trasp{
-	background-color: rgba(59, 68, 85, 0.3);
-	padding: 1% 2%;
-	border:solid 1px #c2c1e8;
+/*menu*/
+/*contenido del launch*/
+.mg2{
+	margin: 2% 0%;
 }
 .cont_let_launch{
 	margin: 14% 0%;
 }
-.mg2{
-	margin: 1% 0% 3%;
-}
+/*contenido del launch*/
+/*lista del segundo row*/
 .cuadrado{
 	width: 22%;
 	margin: 6% 5%;
@@ -58,16 +43,19 @@ body{
 	text-decoration: none;
 	color: #000;
 }
+/*lista del segundo row*/
+/*imagen del 3 row*/
 .font_blu{
 	background: #D4D7F4;
 }
+/*imagen del 3 row*/
 .font_negro{
 	color: #000;
 }
 .font_blanc{
 	color: #fff;
 }
-
+/*lista 4 row*/
 .li_more{
 	margin: 10% 0%;
 	display: block;
@@ -81,4 +69,5 @@ body{
 	padding-right:7%;
 	padding-left: 0%;
 }
+/*lista 4 row*/
 /*patty menulaunch*/
