@@ -1,0 +1,64 @@
+
+/*inicio Portafoli*/
+ul {
+				list-style:none;
+			}
+			
+			.menu{
+				margin-left: 0px;
+				padding-right: 0;
+
+
+			}
+			.navv > li {
+				float:left;
+				margin-top:40px;
+				width:25%;
+				text-align: center;
+				
+			}
+			
+			
+			.navv li a {
+				background-color:#1B2244;
+				color:#EEECE1;
+				text-decoration:none;
+				padding:20px ;
+				display:block;
+			}
+			
+			.navv li a:hover {
+				background-color:#434343;
+			}
+			
+			.navv li ul {
+				display:none;
+				position:absolute;
+				min-width:200px;
+			}
+			
+			.navv li:hover > ul {
+				display:block;
+			}
+			
+			.navv li ul li {
+				position:relative;
+			}
+			
+			.navv li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+/*fin Portafoli*/
+
+
+
+
+
+
+
+
+
+/*inicio call to Action*/
+
+/*fin call to Action*/
