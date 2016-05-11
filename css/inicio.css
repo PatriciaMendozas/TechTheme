@@ -43,6 +43,9 @@ body{
 	text-decoration: none;
 	color: #000;
 }
+.icono_grand{
+	font-size: 50px;
+}
 /*lista del segundo row*/
 /*imagen del 3 row*/
 .font_blu{
@@ -75,6 +78,9 @@ body{
 }
 .pd0{
 	padding: 0%;
+}
+.icono{
+	font-size: 30px;
 }
 
 /*lista 4 row*/
