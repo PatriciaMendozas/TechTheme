@@ -102,67 +102,56 @@ body{
 /*patty fin menulaunch head*/
 
 /*Sara Portafolio */
-
-/*inicio Portafoli*/
-ul {
-				list-style:none;
-			}
-			
-			.menu{
-				margin-left: 0px;
-				padding-right: 0;
-
-
-			}
-			.navv > li {
-				float:left;
-				margin-top:40px;
-				width:25%;
-				text-align: center;
-				
-			}
-			
-			
-			.navv li a {
-				background-color:#1B2244;
-				color:#EEECE1;
-				text-decoration:none;
-				padding:20px ;
-				display:block;
-			}
-			
-			.navv li a:hover {
-				background-color:#434343;
-			}
-			
-			.navv li ul {
-				display:none;
-				position:absolute;
-				min-width:200px;
-			}
-			
-			.navv li:hover > ul {
-				display:block;
-			}
-			
-			.navv li ul li {
-				position:relative;
-			}
-			
-			.navv li ul li ul {
-				right:-140px;
-				top:0px;
-			}
-/*fin Portafoli*/
-/*Sara Portafolio */
+/*Sara BOTON */
+.oscurito{
+	margin: 3%  50% 2% 45%;
+	color: #fff;
+  background-color: #666262;
+  
+}
 
 /*Sara Call to action */
 .call{
-	/*background: url("../img/background/city.jpg");*/
+	background: url("../img/background/city.jpg");
 	height: 400px;
 	background-size: 100%; 
 	background-repeat: no-repeat;
 }
+.texto{
+
+	width: 80%;
+	
+}
+.texto .uno{
+	color: white;
+	margin-top: 150px;
+	margin-left: 300px;
+	
+}
+.capaa{
+	background-color: rgba(49, 52, 52, 0.6);
+	padding: 1% 0% 0%;
+	height: 400px;
+}
+
+.transparente{
+	padding: 8px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-left: 60%;
+  	background-color: rgba(127, 136, 137, 0.3);
+	border:none;
+	color: white;
+
+}
+/*presios*/
+.standard{
+	color: white;
+	background: #666262;
+	height: 8%;
+}
+/*presios*/
 /*Sara Call to action 
 /*patty*/
 .contact{
