@@ -8,7 +8,9 @@ body{
 /*menu*/
 .cont_menu{
 	background: url("../img/background/hero.jpg") top no-repeat; 
-	background-size: 100%;
+	background-size: cover;
+
+
 	}
 .capa{
 	background-color: rgba(49, 52, 52, 0.6);
