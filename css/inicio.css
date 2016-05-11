@@ -32,9 +32,7 @@ body{
 /*contenido del launch*/
 /*lista del segundo row*/
 .cuadrado{
-	width: 22%;
-	margin: 6% 5%;
-	display: inline-block;
+	margin: 2% 0%;
 	vertical-align: top;
 	color: #727272;
 }
@@ -81,17 +79,17 @@ body{
 /*lista 4 row*/
 .li_more{
 	margin: 10% 0%;
-	display: block;
+	
 	color: #727272;
 }
 .li_more> a{
 	text-decoration: none;
 	color: #000;
 }
-.pd_der{
+/*.pd_der{
 	padding-right:7%;
 	padding-left: 0%;
-}
+}*/
 .mglr-10{
 	margin-left: 10%;
 	margin-right: 10%;
