@@ -1,4 +1,4 @@
-*{outline: 1px solid rgba(255,0,0,0.2)}
+/**{outline: 1px solid rgba(255,0,0,0.2)}*/
 img{
 	max-width: 100%;
 }
@@ -24,9 +24,6 @@ body{
 }
 /*menu*/
 /*contenido del launch*/
-.mg2{
-	margin: 2% 0%;
-}
 .cont_let_launch{
 	margin: 14% 0%;
 }
@@ -43,17 +40,41 @@ body{
 	text-decoration: none;
 	color: #000;
 }
+.icono_grand{
+	font-size: 50px;
+}
 /*lista del segundo row*/
 /*imagen del 3 row*/
 .font_blu{
-	background: #D4D7F4;
+	background: #E5E8EB;
 }
 /*imagen del 3 row*/
 .font_negro{
 	color: #000;
 }
-.font_blanc{
-	color: #fff;
+.font_plomo{
+	color: #727272;
+}
+.pd_iz{
+	padding-left: 10%;
+}
+.mg2{
+	margin: 2% 0%;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pt-2{
+	padding-top: 2%;
+}
+.pd0{
+	padding: 0%;
+}
+.pl-2{
+	padding-left: 3%;
+}
+.back_plomo{
+	background: #2D2D2D;
 }
 /*lista 4 row*/
 .li_more{
@@ -69,5 +90,96 @@ body{
 	padding-right:7%;
 	padding-left: 0%;
 }
+.mglr-10{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.icono{
+	font-size: 30px;
+}
+
 /*lista 4 row*/
-/*patty menulaunch*/
+/*patty fin menulaunch head*/
+
+/*Sara Portafolio */
+
+/*inicio Portafoli*/
+ul {
+				list-style:none;
+			}
+			
+			.menu{
+				margin-left: 0px;
+				padding-right: 0;
+
+
+			}
+			.navv > li {
+				float:left;
+				margin-top:40px;
+				width:25%;
+				text-align: center;
+				
+			}
+			
+			
+			.navv li a {
+				background-color:#1B2244;
+				color:#EEECE1;
+				text-decoration:none;
+				padding:20px ;
+				display:block;
+			}
+			
+			.navv li a:hover {
+				background-color:#434343;
+			}
+			
+			.navv li ul {
+				display:none;
+				position:absolute;
+				min-width:200px;
+			}
+			
+			.navv li:hover > ul {
+				display:block;
+			}
+			
+			.navv li ul li {
+				position:relative;
+			}
+			
+			.navv li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+/*fin Portafoli*/
+/*Sara Portafolio */
+
+/*Sara Call to action */
+.call{
+	/*background: url("../img/background/city.jpg");*/
+	height: 400px;
+	background-size: 100%; 
+	background-repeat: no-repeat;
+}
+/*Sara Call to action 
+/*patty*/
+.contact{
+	background: url(../img/background/contactus.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.marg_cotact{
+	padding: 1% 5%;
+}
+.display_icono{
+	display: inline-block;
+}
+.form-control{
+	background-color: rgba(127, 136, 137, 0.3);
+	border:none;
+}
+.foto_circ{
+	max-width: 18%;
+}
