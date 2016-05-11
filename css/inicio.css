@@ -46,7 +46,7 @@ body{
 /*lista del segundo row*/
 /*imagen del 3 row*/
 .font_blu{
-	background: #D4D7F4;
+	background: #E5E8EB;
 }
 /*imagen del 3 row*/
 .font_negro{
@@ -55,6 +55,10 @@ body{
 .font_blanc{
 	color: #fff;
 }
+.pd_iz{
+	padding-left: 10%;
+}
+
 /*lista 4 row*/
 .li_more{
 	margin: 10% 0%;
@@ -69,8 +73,12 @@ body{
 	padding-right:7%;
 	padding-left: 0%;
 }
+.pd0{
+	padding: 0%;
+}
+
 /*lista 4 row*/
-/*patty menulaunch
+/*patty fin menulaunch head*/
 
 /*Sara Portafolio */
 
