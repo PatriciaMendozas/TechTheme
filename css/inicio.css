@@ -24,9 +24,6 @@ body{
 }
 /*menu*/
 /*contenido del launch*/
-.mg2{
-	margin: 2% 0%;
-}
 .cont_let_launch{
 	margin: 14% 0%;
 }
@@ -61,7 +58,21 @@ body{
 .pd_iz{
 	padding-left: 10%;
 }
-
+.mg2{
+	margin: 2% 0%;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pd0{
+	padding: 0%;
+}
+.pl-2{
+	padding-left: 3%;
+}
+.back_plomo{
+	background: #2D2D2D;
+}
 /*lista 4 row*/
 .li_more{
 	margin: 10% 0%;
@@ -75,9 +86,6 @@ body{
 .pd_der{
 	padding-right:7%;
 	padding-left: 0%;
-}
-.pd0{
-	padding: 0%;
 }
 .icono{
 	font-size: 30px;
@@ -143,9 +151,10 @@ ul {
 
 /*Sara Call to action */
 .call{
-	background: url("../img/background/city.jpg");
+	/*background: url("../img/background/city.jpg");*/
 	height: 400px;
 	background-size: 100%; 
 	background-repeat: no-repeat;
 }
 /*Sara Call to action 
+/*patty*/
