@@ -1,4 +1,4 @@
-*{outline: 1px solid rgba(255,0,0,0.2)}
+/**{outline: 1px solid rgba(255,0,0,0.2)}*/
 img{
 	max-width: 100%;
 }
@@ -52,8 +52,8 @@ body{
 .font_negro{
 	color: #000;
 }
-.font_blanc{
-	color: #fff;
+.font_plomo{
+	color: #727272;
 }
 .pd_iz{
 	padding-left: 10%;
@@ -63,6 +63,9 @@ body{
 }
 .pb-3{
 	padding-bottom: 3%;
+}
+.pt-2{
+	padding-top: 2%;
 }
 .pd0{
 	padding: 0%;
@@ -86,6 +89,10 @@ body{
 .pd_der{
 	padding-right:7%;
 	padding-left: 0%;
+}
+.mglr-10{
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .icono{
 	font-size: 30px;
@@ -158,3 +165,21 @@ ul {
 }
 /*Sara Call to action 
 /*patty*/
+.contact{
+	background: url(../img/background/contactus.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.marg_cotact{
+	padding: 1% 5%;
+}
+.display_icono{
+	display: inline-block;
+}
+.form-control{
+	background-color: rgba(127, 136, 137, 0.3);
+	border:none;
+}
+.foto_circ{
+	max-width: 18%;
+}
