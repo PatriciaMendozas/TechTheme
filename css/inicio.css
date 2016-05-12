@@ -1,4 +1,4 @@
-*{outline: 1px solid rgba(255,0,0,0.2)}
+/**{outline: 1px solid rgba(255,0,0,0.2)}*/
 img{
 	max-width: 100%;
 }
@@ -6,6 +6,7 @@ body{
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	
 }
+
 /*menu*/
 .cont_menu{
 	background: url("../img/background/hero.jpg") top no-repeat; 
@@ -189,6 +190,9 @@ body{
 ------------------------------------------------------ */
 
 /*presios*/
+.choose{
+	padding: 3% 0%;
+}
 .cuadradoo{
 	border: 1px solid #D0D0D3;
 	padding: 1.5%;
@@ -220,7 +224,7 @@ body{
 .from{
 	width: 90%;
 	height: 20%;
-	background: #E2E2EE;
+	
 	padding: 10%;
 	margin-left: 5%;
 	margin-top: 5%;
@@ -281,6 +285,19 @@ margin-left: 35%;
 	.pd_iz{
 	padding-left: 5%;
 			}
+	.central_menu{
+		text-align: center;
+		padding: 7% 20%;
+
+	}
+	.layu{
+		margin-left: 5%;
+	}
+	.solito{
+		margin-left: 28%;
+		margin-right: 35%;
+		text-align: center;
+	}
 	.cuadrado{
 		padding-right: 8%;
 	}
@@ -291,4 +308,17 @@ margin-left: 35%;
 		margin: 0%;
 		padding: 0%;
 	}
+	.texto{
+		margin-top: 50%;
+	}
+	.h2_mg{
+		margin: 0% -1%;
+	}
+	.text_contac{
+		text-align: center;
+	}
+	.foll_text{
+		margin: 0% 6%;
+	}
+
 	}
