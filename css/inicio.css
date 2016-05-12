@@ -1,4 +1,4 @@
-/**{outline: 1px solid rgba(255,0,0,0.2)}*/
+*{outline: 1px solid rgba(255,0,0,0.2)}
 img{
 	max-width: 100%;
 }
@@ -10,13 +10,12 @@ body{
 .cont_menu{
 	background: url("../img/background/hero.jpg") top no-repeat; 
 	background-size: cover;
-
-
 	}
 .capa{
 	background-color: rgba(49, 52, 52, 0.6);
 	padding: 1% 0% 0%;
 }
+
 .submenu{ 
 	color: #fff;
 	padding: 10px;
@@ -79,25 +78,23 @@ body{
 	background: #2D2D2D;
 }
 /*lista 4 row*/
-.li_more{
-	margin: 10% 0%;
-	
+
+.text1{
+	margin-left: 8%;
+	padding-left: 2%;
 	color: #727272;
-}
-.li_more> a{
-	text-decoration: none;
-	color: #000;
-}
-/*.pd_der{
-	padding-right:7%;
-	padding-left: 0%;
-}*/
+	padding-right: 2%;
+	padding-top: 0%;
+	}
+
 .mglr-10{
 	margin-left: 10%;
 	margin-right: 10%;
 }
 .icono{
 	font-size: 30px;
+	margin-right: 2%;
+	padding-top: 2%;
 }
 
 /*lista 4 row*/
