@@ -103,13 +103,33 @@ body{
 /*lista 4 row*/
 /*patty fin menulaunch head*/
 
-/*Sara Portafolio */
+/*Sara menu */
+
+/* menu*/
+
+/* Portafoli*/
+.imagen img{
+	width: 100%;
+
+}
+.imagen{
+	padding: 2%;
+	background: white;
+}
+.portafolio p{
+	background: white;
+}
+
+/*fin Portafoli*/
 /*Sara BOTON */
 .oscurito{
 	margin: 3%  50% 2% 45%;
 	color: #fff;
   background-color: #666262;
   
+}
+.uno{
+	margin-left: 35%;
 }
 
 /*Sara Call to action */
@@ -148,11 +168,56 @@ body{
 
 }
 /*presios*/
+.cuadradoo{
+	border: 1px solid #D0D0D3;
+	padding: 1.5%;
+	margin:0.5%;
+
+}
 .standard{
 	color: white;
 	background: #666262;
-	height: 8%;
+	height: 10%;
+	width: 90%;
+	padding: 2%;
+	font-size: 15px;
+	margin-left:5%;
+	margin-top: 5%;
+	 
 }
+.from{
+	width: 90%;
+	height: 20%;
+	background: #E2E2EE;
+	padding: 10%;
+	margin-left: 5%;
+	margin-top: 5%;
+}	
+.from p{
+	display: inline-block;
+
+}
+.centrado{
+	margin-left: 10%;
+}
+.from .negrita{
+	font-size: 20px;
+}
+.palabras{
+	width: 80%;
+	margin-top:10%;
+	margin-left:9%;
+}
+
+.blanco{
+
+	background: white;
+	padding-top: 3%;
+}
+.unoni{
+margin-left: 35%;
+}
+  
 /*presios*/
 /*Sara Call to action 
 /*patty*/
