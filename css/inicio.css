@@ -63,6 +63,9 @@ body{
 .mg2{
 	margin: 2% 0%;
 }
+.magl{
+	padding-left: 0%;
+}
 .pb-3{
 	padding-bottom: 3%;
 }
@@ -103,6 +106,16 @@ body{
 /*patty fin menulaunch head*/
 
 /*Sara menu */
+.men{ 
+	color: black;
+	padding: 5px;
+
+	}
+.men:hover{
+	text-decoration:none;
+	color: white;
+	background: #54DEDC;
+}
 
 /* menu*/
 
@@ -131,41 +144,50 @@ body{
 	margin-left: 35%;
 }
 
-/*Sara Call to action */
+/*Sara Call to action-----------------------------------
+------------------------------------------------------ */
 .call{
 	background: url("../img/background/city.jpg");
-	height: 400px;
-	background-size: 100%; 
+	height: 450px;
+	background-size:cover; 
 	background-repeat: no-repeat;
+	background-position: center;
 }
-.texto{
 
-	width: 80%;
-	
-}
-.texto .uno{
-	color: white;
-	margin-top: 150px;
-	margin-left: 300px;
-	
-}
+
 .capaa{
 	background-color: rgba(49, 52, 52, 0.6);
 	padding: 1% 0% 0%;
-	height: 400px;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
+.texto{
+
+	width: 90%;
+	margin: auto;
+	
+	text-align vertical-align: center;
+
+
+}
+.texto p{
+	margin-bottom: 5%;
+	margin-top: 15%;
+}
 .transparente{
 	padding: 8px 10px;
-  font-size: 13px;
-  line-height: 1.5;
-  margin-top: 5%;
-  margin-left: 60%;
+	font-size: 13px;
+ 	line-height: 1.5;
   	background-color: rgba(127, 136, 137, 0.3);
 	border:none;
 	color: white;
-
 }
+
+/*Sara Call to action-----------------------------------
+------------------------------------------------------ */
+
 /*presios*/
 .cuadradoo{
 	border: 1px solid #D0D0D3;
@@ -184,6 +206,17 @@ body{
 	margin-top: 5%;
 	 
 }
+
+.premium{
+	color: white;
+	background: #5AECEA;
+	height: 10%;
+	width: 90%;
+	padding: 2%;
+	font-size: 15px;
+	margin-left:5%;
+	margin-top: 5%;
+}
 .from{
 	width: 90%;
 	height: 20%;
@@ -197,7 +230,7 @@ body{
 
 }
 .centrado{
-	margin-left: 10%;
+	width: 100%;
 }
 .from .negrita{
 	font-size: 20px;
@@ -218,7 +251,8 @@ margin-left: 35%;
 }
   
 /*presios*/
-/*Sara Call to action 
+
+
 /*patty*/
 .contact{
 	background: url(../img/background/contactus.jpg);
@@ -238,3 +272,23 @@ margin-left: 35%;
 .foto_circ{
 	max-width: 18%;
 }
+@media(max-width: 750px){
+	.submenu{
+		padding: 2%;}
+	.menu_ul{
+		margin-left: 4%;
+			}
+	.pd_iz{
+	padding-left: 5%;
+			}
+	.cuadrado{
+		padding-right: 8%;
+	}
+	.text1{
+		padding-top: 0.4%;
+	}
+	.men{
+		margin: 0%;
+		padding: 0%;
+	}
+	}
