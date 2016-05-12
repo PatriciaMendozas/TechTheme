@@ -43,6 +43,7 @@ body{
 }
 .icono_grand{
 	font-size: 50px;
+	color: #2D85D1;
 }
 /*lista del segundo row*/
 /*imagen del 3 row*/
@@ -94,7 +95,8 @@ body{
 .icono{
 	font-size: 30px;
 	margin-right: 2%;
-	padding-top: 2%;
+	padding-top: 3%;
+	color: #2D85D1;
 }
 
 /*lista 4 row*/
